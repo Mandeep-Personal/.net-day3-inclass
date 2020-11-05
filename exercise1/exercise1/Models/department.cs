@@ -10,5 +10,12 @@ namespace exercise1.Models
 
         public string Name { get; private set; }
 
+        public Department(int id, string name): base(id)
+        {
+
+            Name = name;
+
+        }
+
     }
 }

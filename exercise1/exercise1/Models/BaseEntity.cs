@@ -8,5 +8,13 @@ namespace exercise1.Models
     {
         public int Id { get; private set; }
 
+
+        public BaseEntity (int id)
+        {
+            this.Id = id;
+
+        }
+
+
     }
 }
